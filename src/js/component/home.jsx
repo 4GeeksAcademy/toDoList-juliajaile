@@ -5,7 +5,7 @@ import React, {useState} from "react";
 const Home = () => {
 	const[todos, setTodos] = useState([]); //donde irán la lista de todos
     const[inputValue, setInputValue] = useState(""); //donde irá lo que se escriba en input
-    const[hiddenDelete, setHiddenDelete] = useState(true);
+
 
 	//hace que el estado de inputValue sea igual a lo que se escribe en input
 	const handleChange = (event) =>{
